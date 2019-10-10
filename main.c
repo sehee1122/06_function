@@ -37,6 +37,13 @@ int get_max(int x, int y) {
 		return y;
 }
 
+	// Practice 06-4
+	
+void square2(int n) {
+	
+	n = n * n;
+}
+
 int main(int argc, char *argv[]) {
 	
 	print_star();
@@ -44,6 +51,8 @@ int main(int argc, char *argv[]) {
 	print_star();
 	
 	printf("\n\n");
+	
+	//
 	
 	int p;
 	int q;
@@ -57,7 +66,12 @@ int main(int argc, char *argv[]) {
 	
 	printf("square : %i\n", square(p));
 	
-	printf("get_max : %i\n", get_max(p, q));
+	printf("get_max : %i\n\n", get_max(p, q));
+	
+	//
+	
+	square2(p);
+	printf("square2 : %i\n", p);
 	
 	return 0;
 }
